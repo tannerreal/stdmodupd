@@ -1,15 +1,15 @@
 {
 	"1": {
 	"version": 1,
-	"list": {
+	"list": [
 		{"name": "backport.7z", "url": "https", "modver": 107}
-	}
+	]
 	},
 	"2": {
 	"version": 2,
-	"list": {
+	"list": [
 		{"name": "backport.7z", "url": "https", "modver": 108},
 		{"name": "tar.zip", "url": "https", "modver": 102}
-	}
+	]
 	}
 }
