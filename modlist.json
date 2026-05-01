@@ -2,14 +2,13 @@
 	"1": {
 	"version": 1,
 	"list": [
-		{"name": "backport.7z", "url": "https", "modver": 107}
-	]
-	},
-	"2": {
-	"version": 2,
-	"list": [
-		{"name": "backport.7z", "url": "https", "modver": 108},
-		{"name": "tar.zip", "url": "https", "modver": 102}
+		{"name": "backport.7z", "url": "http://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.0.7", "modver": 1},
+		{"name": "wtt-commonlib.zip", "url": "https://github.com/WelcomeToTarkov/WTT-CommonLib/releases/download/v2.0.20/WTT-CommonLib-v2.0.20.zip", "modver": 1},
+		{"name": "wtt-blackdiv.7z", "url": "https://github.com/TacticalToaster/BlackDiv/releases/download/1.1.0/blackdiv-110-release.7z", "modver": 1},
+		{"name": "dynamicmaps.7z", "url": "https://github.com/acidphantasm/SPT-DynamicMaps/releases/download/1.1.3/DynamicMaps-1.1.3.7z", "modver": 1},
+		{"name": "fika-client.zip", "url": "https://github.com/project-fika/Fika-Plugin/releases/download/v2.2.5/Fika.Release.2.2.5.zip", "modver": 1},
+		{"name": "morebotsapi.7z", "url": "https://github.com/TacticalToaster/MoreBotsAPI/releases/download/2.0.0/morebotsapi-200-release.7z", "modver": 1},
+		{"name": "uifixes.zip", "url": "https://github.com/tyfon7/UIFixes/releases/download/v5.3.8/Tyfon-UIFixes-5.3.8.zip", "modver": 1}
 	]
 	}
 }
