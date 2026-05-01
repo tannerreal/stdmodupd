@@ -1,7 +1,9 @@
-{"version": 1, "list": [
-        {"name":"backport.7z", "url":"xxx", "modver":107}
-        ]},
-{"version": 2, "list": [
-		{"name":"backport.7z", "url":"xxx", "modver":108},
-		{"name":"tar.zip", "url":"xxx", "modver":102},
-]}
+{
+	{"version": 1, "list": [
+			{"name":"backport.7z", "url":"xxx", "modver":107}
+			]},
+	{"version": 2, "list": [
+			{"name":"backport.7z", "url":"xxx", "modver":108},
+			{"name":"tar.zip", "url":"xxx", "modver":102},
+	]}
+}
