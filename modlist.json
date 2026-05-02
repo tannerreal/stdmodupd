@@ -2,13 +2,87 @@
 	"1": {
 	"version": 1,
 	"list": [
-		{"name": "backport.7z", "url": "http://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.0.7", "modver": 1},
-		{"name": "wtt-commonlib.zip", "url": "https://github.com/WelcomeToTarkov/WTT-CommonLib/releases/download/v2.0.20/WTT-CommonLib-v2.0.20.zip", "modver": 1},
-		{"name": "wtt-blackdiv.7z", "url": "https://github.com/TacticalToaster/BlackDiv/releases/download/1.1.0/blackdiv-110-release.7z", "modver": 1},
+		{"name": "svm.zip", "url": "https://github.com/GhostFenixx/svm-csharp/releases/download/2.0.2/SVM.Server.Value.Modifier.zip", "modver": 1},
+		{"name": "tiltushkin-allammo.zip", "url": "https://github.com/Tiltushkin/Tiltushkin-AllAmmo-CSharp/releases/download/1.2.0/Tiltushkin.-.AllAmmo.1.2.0.zip", "modver": 1},
+		{"name": "botcallsigns.7z", "url": "https://github.com/harmonyzt/BotCallsigns/releases/download/2.0.4/BotCallsigns_v2.0.4.7z", "modver": 1},
 		{"name": "dynamicmaps.7z", "url": "https://github.com/acidphantasm/SPT-DynamicMaps/releases/download/1.1.3/DynamicMaps-1.1.3.7z", "modver": 1},
-		{"name": "fika-client.zip", "url": "https://github.com/project-fika/Fika-Plugin/releases/download/v2.2.5/Fika.Release.2.2.5.zip", "modver": 1},
+		{"name": "progressivebotsystem.7z", "url": "https://github.com/acidphantasm/progressivebotsystem-csharp/releases/download/2.1.13/acidphantasm-progressivebotsystem.7z", "modver": 1},
+		{"name": "botplacementsystem.7z", "url": "https://github.com/acidphantasm/botplacementsystem-csharp/releases/download/2.0.18/acidphantasm-botplacementsystem.7z", "modver": 1},
+		
+		{"name": "lotsoflootredux.zip", "url": "https://github.com/ArchangelWTF/LotsofLoot/releases/download/4.0.3/LotsofLootRedux-4.0.3.zip", "modver": 1},
+		{"name": "enablelabyrinth.7z", "url": "https://github.com/acidphantasm/enablelabyrinth-csharp/releases/download/1.0.1/acidphantasm-enablelabyrinth.7z", "modver": 1},
+		{"name": "wtt-commonlib.zip", "url": "https://github.com/WelcomeToTarkov/WTT-CommonLib/releases/download/v2.0.20/WTT-CommonLib-v2.0.20.zip", "modver": 1},
+		{"name": "showmethemoney.zip", "url": "https://github.com/swiftxp-hub/spt-show-me-the-money/releases/download/v2.5.3/swiftxp-showmethemoney-2.5.3.7z", "modver": 1},
+		{"name": "hephaestus.zip", "url": "https://github.com/alexkarpen/Hephaestus/releases/download/2.0.2/Hephaestus2.0.2.zip", "modver": 1},
+		{"name": "ratshotofunusualsize.zip", "url": "https://github.com/bushtail/RatshotOfUnusualSize/releases/download/v1.1.0/bushtail-RatshotOfUnusualSize_v1.1.0.zip", "modver": 1},
+		
+		{"name": "giveui.zip", "url": "https://github.com/angel-git/give-ui/releases/download/v4.0.0/give-ui-v4.0.0.zip", "modver": 1},
+		{"name": "wtt-backport.7z", "url": "http://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.0.7", "modver": 1},
+		{"name": "nerfforstbite.zip", "url": "https://github.com/minesettimi/NerfFrostbite/releases/download/1.0.0/NerfFrostbite-v1.0.0.zip", "modver": 1},
+		{"name": "weaponcustomizer.zip", "url": "https://github.com/tyfon7/WeaponCustomizer/releases/download/v3.0.3/Tyfon-WeaponCustomizer-3.0.3.zip", "modver": 1},
+		{"name": "wtt-armory.7z", "url": "http://forge.sp-tarkov.com/mod/download/2246/wtt-armory/2.0.5", "modver": 1},
+		{"name": "wtt-blackdiv.7z", "url": "https://github.com/TacticalToaster/BlackDiv/releases/download/1.1.0/blackdiv-110-release.7z", "modver": 1},
+		
 		{"name": "morebotsapi.7z", "url": "https://github.com/TacticalToaster/MoreBotsAPI/releases/download/2.0.0/morebotsapi-200-release.7z", "modver": 1},
-		{"name": "uifixes.zip", "url": "https://github.com/tyfon7/UIFixes/releases/download/v5.3.8/Tyfon-UIFixes-5.3.8.zip", "modver": 1}
+		{"name": "blackexfilrevision.zip", "url": "https://github.com/Tosox/SPT-BlackExfilRevision/releases/download/v1.0.0/Tosox.BlackExfilRevision-v1.0.0.zip", "modver": 1},
+		{"name": "welcomemessages.zip", "url": "https://github.com/KittehKun/spt-welcome-messages/releases/download/1.0/kitteh-weclome-messages.zip", "modver": 1},
+		{"name": "epicshaders.zip", "url": "https://github.com/EpicRangeTime/Epic_Shaders/releases/download/v1.0.1/Epic.Shaders.1.0.1.zip", "modver": 1},
+		{"name": "bosseshavegpcoins.7z", "url": "https://github.com/acidphantasm/bosseshavegpcoins-csharp/releases/download/1.0.0/acidphantasm-bosseshavegpcoins.7z", "modver": 1},
+		{"name": "bosseshavelegamedals.7z", "url": "https://github.com/acidphantasm/bosseshavelegamedals-csharp/releases/download/2.0.1/acidphantasm-bosseshavelegamedals.7z", "modver": 1},
+		
+		{"name": "uifixes.zip", "url": "https://github.com/tyfon7/UIFixes/releases/download/v5.3.8/Tyfon-UIFixes-5.3.8.zip", "modver": 1},
+		{"name": "raidreview.zip", "url": "https://github.com/Chazut/SPT-RaidReview/releases/download/1.0.1/raid_review__1.0.1_windows.zip", "modver": 1},
+		{"name": "betterokp.zip", "url": "https://github.com/bushtail/BetterOKP/releases/download/v1.0.0/bushtail-BetterOKP_v1.0.0.zip", "modver": 1},
+		{"name": "betterrearsights.7z", "url": "https://github.com/peinwastaken/PeinBetterRearSights/releases/download/1.7.0/SPTBetterRearSights.7z", "modver": 1},
+		{"name": "wtt-packandstrap.7z", "url": "https://github.com/WelcomeToTarkov/PackNStrap/releases/download/v2.0.4/WTT-PackNStrap-2.0.4.7z", "modver": 1},
+		{"name": "realisticthermalscopes.zip", "url": "https://github.com/FiveFme/Realistic-Thermal-Scopes-csharp/releases/download/v2.0.0/FiveF-realisticThermalScopes-2.0.0.zip", "modver": 1},
+		
+		{"name": "realisticnvg.7z", "url": "https://github.com/Borkel/RealisticNVG-client-2/releases/download/2.1.1/BRNVG-2.1.1.7z", "modver": 1},
+		{"name": "foldables.zip", "url": "https://github.com/ozen-m/SPT-Foldables/releases/download/v1.0.3/ozen-Foldables-1.0.3.zip", "modver": 1},
+		{"name": "lootingbots.zip", "url": "https://github.com/Skwizzy/SPT-LootingBots/releases/download/v1.6.3-spt-4.0/Skwizzy-LootingBots-1.6.3.zip", "modver": 1},
+		{"name": "fpvdronemod.7z", "url": "https://github.com/peinwastaken/SPTFPVDroneMod/releases/download/0.7.0/FPVDroneMod.7z", "modver": 1},
+		{"name": "lessrestrictingheadwear.zip", "url": "http://forge.sp-tarkov.com/mod/download/922/less-restricting-headwear/3.0.0", "modver": 1},
+		{"name": "makestmgreatagain.7z", "url": "https://github.com/viniHNS/Make-STM-great-again/releases/download/v1.0.1/Make-STM-great-again.zip", "modver": 1},
+		
+		{"name": "makeshotgunsgreatagain.zip", "url": "https://github.com/viniHNS/Make-Shotguns-Great-Again/releases/download/v1.13.1/makeshotgunsgreatagain.zip", "modver": 1},
+		{"name": "notallmounts.7z", "url": "https://github.com/Ajdj100/NoTallMounts/releases/download/1.0.1/NoTallMounts1.0.1.7z", "modver": 1},
+		{"name": "couturier.zip", "url": "https://forge.sp-tarkov.com/mod/download/2239/couturier-gear-and-clothing-pack/2.0.2", "modver": 1},
+		{"name": "fika-server.zip", "url": "https://github.com/project-fika/Fika-Server-CSharp/releases/download/v2.2.4/Fika.Server.Release.2.2.4.zip", "modver": 1},
+		{"name": "sain.zip", "url": "https://github.com/ArchangelWTF/SAIN/releases/download/v4.4.3/SAIN.4.4.3.zip", "modver": 1},
+		{"name": "epicsaio.zip", "url": "https://github.com/EpicRangeTime/EpicRangeTime-Weapons/releases/download/v4.0.7/EpicsAIO.4.0.7.zip", "modver": 1},
+		
+		{"name": "ecot.zip", "url": "https://github.com/eukyre/Eukyre-Consortium/releases/download/v1.3.1/ECOTv1.3.1.zip", "modver": 1},
+
+		{"name": "fika-client.zip", "url": "https://github.com/project-fika/Fika-Plugin/releases/download/v2.2.5/Fika.Release.2.2.5.zip", "modver": 1},
+		{"name": "weaponcamoandstickers.zip", "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers/releases/download/v1.6.0/7Bpencil.WeaponCamoAndStickers.v1.6.0.zip", "modver": 1},
+		{"name": "weaponcamoandstickers-fika.zip", "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers/releases/download/v1.6.0/7Bpencil.WeaponCamoAndStickers.Fika.v1.2.0.zip", "modver": 1},
+		{"name": "waypoints.7z", "url": "https://github.com/DrakiaXYZ/SPT-Waypoints/releases/download/1.8.2/DrakiaXYZ-Waypoints-1.8.2.7z", "modver": 1},
+		{"name": "dynamicmaps.7z", "url": "https://github.com/acidphantasm/SPT-DynamicMaps/releases/download/1.1.3/DynamicMaps-1.1.3.7z", "modver": 1},
+		{"name": "fidgetspinner.zip", "url": "https://github.com/Fiodorwellfme/FidgetSpinner/releases/download/v1.1.0/FidgetSpinner.zip", "modver": 1},
+		{"name": "increaselookdirection.zip", "url": "http://forge.sp-tarkov.com/mod/download/2121/increase-look-direction/1.0.4", "modver": 1},
+		{"name": "gamepanelhud.7z", "url": "https://github.com/kmyuhkyuk/GamePanelHUD/releases/download/3.4.0/kmyuhkyuk-GamePanelHUD.Release_3.4.0.7z", "modver": 1},
+		{"name": "kmytarkovapi.7z", "url": "https://github.com/kmyuhkyuk/KmyTarkovApi/releases/download/1.5.0/kmyuhkyuk-KmyTarkovApi.Release_1.5.0.7z", "modver": 1},
+		{"name": "playerencumbrancebar.zip", "url": "https://github.com/Lacyway/SPT-PlayerEncumbranceBar/releases/download/1.2.2/PlayerEncumbranceBar-1.2.2.zip", "modver": 1},
+		{"name": "patchcrc32.7z", "url": "https://github.com/s8ga/SPT_PatchCrc32/releases/download/v1.0.0-fix/s8_SPT_PatchCRC32-v1.0.0-win-x86_64.7z", "modver": 1},
+		{"name": "loadbundleevenfaster.7z", "url": "https://github.com/s8ga/SPT_LoadBundleEvenFaster/releases/download/v1.0.0/s8_SPT_LoadBundleEvenFaster-v1.0.0-win-x86_64.7z", "modver": 1},
+		{"name": "tarkin-huir.zip", "url": "https://github.com/bmpq/spt-hideoutuirevamp/releases/download/v1.0.0/huir_v1.0.0.zip", "modver": 1},
+		{"name": "tarkin-ladders.zip", "url": "https://github.com/bmpq/spt-ladders/releases/download/v1.0.2/tarkin-ladders-v1.0.0.zip", "modver": 1},
+		{"name": "tarkin-fikasync.zip", "url": "https://github.com/bmpq/spt-ladders/releases/download/v1.0.0/tarkin-ladders-fikasync-v1.0.0.zip", "modver": 1},
+		{"name": "bringbackconcussion.7z", "url": "https://github.com/harmonyzt/BringBackConcussion/releases/download/1.0.3/Bring_Back_Concussion_v1.0.3.7z", "modver": 1},
+		{"name": "bigbrain.7z", "url": "https://github.com/DrakiaXYZ/SPT-BigBrain/releases/download/1.4.0/DrakiaXYZ-BigBrain-1.4.0.7z", "modver": 1},
+		{"name": "searchopencontainers.7z", "url": "https://github.com/DrakiaXYZ/SPT-SearchOpenContainers/releases/download/1.4.0/DrakiaXYZ-SearchOpenContainers-1.4.0.7z", "modver": 1},
+		{"name": "fovfix.zip", "url": "https://github.com/space-commits/SPT-FOV-Fix/releases/download/v4.0.1/Fontaine-FOV-Fix-v4.0.1-SPT-v4.x.x.zip", "modver": 1},
+		{"name": "handsarenotbusy.zip", "url": "https://github.com/Lacyway/HandsAreNotBusy/releases/download/1.6/HandsAreNotBusy.zip", "modver": 1},
+		{"name": "betterammoloadinglist.7z", "url": "https://github.com/Katrin0522/SPT-BetterAmmoLoadingList/releases/download/1.1.0/BetterAmmoLoadingList_1.1.0.7z", "modver": 1},
+		{"name": "magcheckinterrupt.zip", "url": "https://github.com/ozen-m/SPT-MagCheckInterrupt/releases/download/v1.0.2/ozen-MagCheckInterrupt-1.0.2.zip", "modver": 1},
+		{"name": "moddingstatshelper.zip", "url": "https://github.com/Soulztorm/Wara-ModdingStatsHelper/releases/download/1.1.1/Wara-ModdingStatsHelper-1.1.1.zip", "modver": 1},
+	]
+	},
+	"2": {
+	"version": 2,
+	"list": [
+		{"name": "wtt-blackdiv.7z", "url": "https://github.com/TacticalToaster/BlackDiv/releases/download/1.1.1/blackdiv-111-release.7z", "modver": 2},
+		{"name": "morebotsapi.7z", "url": "https://github.com/TacticalToaster/MoreBotsAPI/releases/download/2.0.1/morebotsapi-201-release.7z", "modver": 2},
 	]
 	}
 }
