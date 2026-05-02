@@ -8,7 +8,7 @@ from shutil import copytree, rmtree
 #Limitations:
 #No discord files, BCJ2 filter is not supported by py7zr
 
-modUpdaterVersion = "1.2.0"
+modUpdaterVersion = "1.2.1"
 
 def setup(downloadList: list, modsUpToDate: bool) -> tuple[list, bool]:
     print(" >Updater version: "+modUpdaterVersion)
@@ -50,14 +50,14 @@ def setup(downloadList: list, modsUpToDate: bool) -> tuple[list, bool]:
         print(" >Modlist is up to date")
     else:
         open(".modlistVer", "w").write(str(modlistVer))
-        if not isdir("./update"):
+        if not isdir("./update"): #Easier to make the directory each time rather than clear files one by one on cleanup
             mkdir("./update")
             print(" >No update folder found")
 
-    return downloadList, modsUpToDate
     print("")
+    return downloadList, modsUpToDate
 
-def generateCache(bundledFiles: list):
+def generateCache(bundledFiles: list): #We need to generate cache because downloading bundles from server takes too long (300kbps upload limit)
     progress = 0
     print(" >Generating cache...")
     for f in bundledFiles:
@@ -117,9 +117,9 @@ def extract(bundledFiles: list, file: str) -> list: #Takes the bundledfiles, pro
 
     return bundledFiles
 
-def getFile(url: str, name: str):
+def getFile(url: str, name: str) -> bool:
     fname = ".\\update\\"+name
-    ua = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"}
+    ua = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"} #I wish i didn't have to fake user agent for forge, if any1 from forge sees this, sorry!
 
     with requests.get(url, stream=True, headers=ua) as r:
         r.raise_for_status()
@@ -143,7 +143,6 @@ def main():
     modsUpToDate = True
     downloadList = []
     downloadList, modsUpToDate = setup(downloadList, modsUpToDate)
-    #modlistVer = 1
     bundledFiles = []
 
     if not modsUpToDate:
@@ -163,6 +162,7 @@ def main():
 
         generateCache(bundledFiles)
 
+    print("")
     print(" >Mods updated successfully, you can now close this window")
     exit = input()
 
