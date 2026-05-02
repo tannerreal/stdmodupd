@@ -75,14 +75,14 @@
 		{"name": "handsarenotbusy.zip", "url": "https://github.com/Lacyway/HandsAreNotBusy/releases/download/1.6/HandsAreNotBusy.zip", "modver": 1},
 		{"name": "betterammoloadinglist.7z", "url": "https://github.com/Katrin0522/SPT-BetterAmmoLoadingList/releases/download/1.1.0/BetterAmmoLoadingList_1.1.0.7z", "modver": 1},
 		{"name": "magcheckinterrupt.zip", "url": "https://github.com/ozen-m/SPT-MagCheckInterrupt/releases/download/v1.0.2/ozen-MagCheckInterrupt-1.0.2.zip", "modver": 1},
-		{"name": "moddingstatshelper.zip", "url": "https://github.com/Soulztorm/Wara-ModdingStatsHelper/releases/download/1.1.1/Wara-ModdingStatsHelper-1.1.1.zip", "modver": 1},
+		{"name": "moddingstatshelper.zip", "url": "https://github.com/Soulztorm/Wara-ModdingStatsHelper/releases/download/1.1.1/Wara-ModdingStatsHelper-1.1.1.zip", "modver": 1}
 	]
 	},
 	"2": {
 	"version": 2,
 	"list": [
 		{"name": "wtt-blackdiv.7z", "url": "https://github.com/TacticalToaster/BlackDiv/releases/download/1.1.1/blackdiv-111-release.7z", "modver": 2},
-		{"name": "morebotsapi.7z", "url": "https://github.com/TacticalToaster/MoreBotsAPI/releases/download/2.0.1/morebotsapi-201-release.7z", "modver": 2},
+		{"name": "morebotsapi.7z", "url": "https://github.com/TacticalToaster/MoreBotsAPI/releases/download/2.0.1/morebotsapi-201-release.7z", "modver": 2}
 	]
 	}
 }
