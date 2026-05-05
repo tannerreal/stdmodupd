@@ -8,11 +8,14 @@ from shutil import copytree, rmtree
 #Limitations:
 #No discord files, BCJ2 filter is not supported by py7zr
 
-modUpdaterVersion = "1.2.1"
+modUpdaterVersion = "1.2.2"
 
-def setup(downloadList: list, modsUpToDate: bool) -> tuple[list, bool]:
+def setup() -> tuple[list, bool]:
     print(" >Updater version: "+modUpdaterVersion)
     print("")
+
+    downloadList = []
+    modsUpToDate = True
     
     if isfile(".modlistVer"): 
         c = open(".modlistVer").read()
@@ -20,16 +23,18 @@ def setup(downloadList: list, modsUpToDate: bool) -> tuple[list, bool]:
             modlistVer = int(c)
         else:
             modlistVer = 1
-            open(".modlistVer", "w").write("0")
+            open(".modlistVer", "w").write("1")
     else:
         modlistVer = 1
-        open(".modlistVer", "w").write("0")
+        open(".modlistVer", "w").write("1")
 
     print(" >Downloading modlist...")
-    modlist = requests.get("https://raw.githubusercontent.com/tannerreal/stdmodupd/refs/heads/main/modlistv2.json").json()
-    
-    if not modlist:
-        raise Exception(" >ERROR: no modlist")
+    mr = requests.get("https://raw.githubusercontent.com/tannerreal/stdmodupd/refs/heads/main/modlistv2.json") #Replace me i you want to use a different modlist, note: modlists always start with 1, if you want to download version 1 of modlist, put a zero in the .modlistVer file
+
+    if mr and mr.status_code == 200:
+        modlist = mr.json()
+    else:
+        raise Exception(" >ERROR: no modlist, status code: "+str(mr.status_code))
     
     print(" >Parsing modlist...")
     for list in modlist:
@@ -38,7 +43,7 @@ def setup(downloadList: list, modsUpToDate: bool) -> tuple[list, bool]:
             modlistVer += 1
             for list1 in modlist[str(list)]["list"]:
                 checkMod, idx = getListInstance(list1["name"], downloadList)
-                if checkMod:
+                if checkMod: #we check the modname if it already exists, if we find a mod that has an older version from a previous version of modlist, replace that index with a newer download of the mod
                     if checkMod["modver"] < list1["modver"]:
                         downloadList[idx] = list1
                     else:
@@ -75,34 +80,35 @@ def extract(bundledFiles: list, file: str) -> list: #Takes the bundledfiles, pro
 
     fixlist = []
     for f in files:
-        if f.find("/bundles/") > -1:
-            bundlePath = ""
 
-            split = f.split("/")
-            if not split[0] == "SPT":
-                rangeStart = 1
-                found = False
-                for f in fixlist:
-                    if f == split[0]:
-                        found = True
-                if not found:
-                    fixlist.append(split[0])
-            else:
-                rangeStart = 0
+        bork2 = ""
+        if f.find("SPT/user") > 0: #If the spt or bepinex folders are not on index 0 that means they are farther down the directory list, needs fixing
+            bork2 = f[0:f.find("SPT/user")-1]
+            #print(" >Broken path(SPT): "+bork2)
+        if f.find("BepInEx/plugins") > 0:
+            bork2 = f[0:f.find("BepInEx/plugins")-1]
+            #print(" >Broken path(BepInEx): "+bork2)
+
+        if bork2: 
+            found = False
+            for fx in fixlist:
+                if fx == bork2: found = True
+            if not found: #No need to append the same path that needs fixing more than once
+                print(" >Found broken path: "+bork2)
+                fixlist.append(bork2)
+
+        if f.find("/bundles/") > -1 and f.find("SPT/user/mods") > -1:
+            bundlePath=f[f.find("SPT/user/"):f.find("/bundles/")+8] #this also fixes the path by finding where spt folder is in case its broken
             
-            for s in range(rangeStart, len(split)):
-                str = split[s]
-                bundlePath += "/"+str
-                if str == "bundles":
-                    break
-
             found = False
             for bf in bundledFiles:
                 if bf == bundlePath:
                     found = True
             if not found:
                 bundledFiles.append(bundlePath)
-    print(" >Extracting: "+file+"...")
+
+            print(" >Found bundles: "+bundlePath)
+    print(" >Extracting "+file+"...")
     if file.find(".7z") > -1:
         py7zr.SevenZipFile(file).extractall()
     elif file.find(".zip") > -1:
@@ -111,13 +117,16 @@ def extract(bundledFiles: list, file: str) -> list: #Takes the bundledfiles, pro
         raise Exception(" >ERROR: unsupported file format for: "+file)
 
     for f in fixlist:
-        print(f)
+        f = f.replace("/", "\\") #i hate paths
+        print(" >Fix path for: "+f)
+        fsplit = f.split("\\")
+
         copytree(".\\"+f, ".", dirs_exist_ok=True) #fix for mods that don't ship spt/bepinex in the root of the zip
-        rmtree(".\\"+f)
+        rmtree(".\\"+fsplit[0])
 
     return bundledFiles
 
-def getFile(url: str, name: str) -> bool:
+def getFile(url: str, name: str) -> bool: #Download function,,,,
     fname = ".\\update\\"+name
     ua = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0"} #I wish i didn't have to fake user agent for forge, if any1 from forge sees this, sorry!
 
@@ -140,9 +149,7 @@ def getListInstance(name: str, downloadList: list):
     return ("", 0)
 
 def main():
-    modsUpToDate = True
-    downloadList = []
-    downloadList, modsUpToDate = setup(downloadList, modsUpToDate)
+    downloadList, modsUpToDate = setup()
     bundledFiles = []
 
     if not modsUpToDate:
@@ -151,7 +158,7 @@ def main():
             fname = mod["name"]+"."+mod["format"]
             print(" >Downloading: "+mod["url"]+" :: "+fname)
 
-            if getFile(mod["url"], fname):
+            if getFile(mod["url"], fname): #if the download succeeded, extract files and save list of bundles, else this will crash
                 bundledFiles = extract(bundledFiles ,".\\update\\"+fname)
 
         print("")

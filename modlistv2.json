@@ -12,7 +12,7 @@
 		{"name": "ArchangelWTF-LotsofLootRedux", "format": "zip", "modver": 1, "url": "https://github.com/ArchangelWTF/LotsofLoot/releases/download/4.0.3/LotsofLootRedux-4.0.3.zip"},
 		{"name": "acidphantasm-EnableLabyrinth", "format": "7z", "modver": 1, "url": "https://github.com/acidphantasm/enablelabyrinth-csharp/releases/download/1.0.1/acidphantasm-enablelabyrinth.7z"},
 		{"name": "WTT-CommonLib", "format": "zip", "modver": 1, "url": "https://github.com/WelcomeToTarkov/WTT-CommonLib/releases/download/v2.0.20/WTT-CommonLib-v2.0.20.zip"},
-		{"name": "swiftxp-ShowMeTheMoney", "format": "zip", "modver": 1, "url": "https://github.com/swiftxp-hub/spt-show-me-the-money/releases/download/v2.5.3/swiftxp-showmethemoney-2.5.3.7z"},
+		{"name": "swiftxp-ShowMeTheMoney", "format": "7z", "modver": 1, "url": "https://github.com/swiftxp-hub/spt-show-me-the-money/releases/download/v2.5.3/swiftxp-showmethemoney-2.5.3.7z"},
 		{"name": "alexkarpen-Hephaestus", "format": "zip", "modver": 1, "url": "https://github.com/alexkarpen/Hephaestus/releases/download/2.0.2/Hephaestus2.0.2.zip"},
 		{"name": "bushtail-RatshotOfUnusualSize", "format": "zip", "modver": 1, "url": "https://github.com/bushtail/RatshotOfUnusualSize/releases/download/v1.1.0/bushtail-RatshotOfUnusualSize_v1.1.0.zip"},
 		
