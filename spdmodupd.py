@@ -10,7 +10,7 @@ from sys import stdout
 #Limitations:
 #No discord files
 
-modUpdaterVersion = "1.3.0"
+modUpdaterVersion = "1.3.1"
 sevenZipDownloadLink = "https://github.com/ip7z/7zip/releases/download/26.01/7zr.exe"
 modListLink = "https://raw.githubusercontent.com/tannerreal/stdmodupd/refs/heads/main/modlistv2.json" #Replace me i you want to use a different modlist, note: modlists always start with 1, if you want to download version 1 of modlist, put a zero in the .modlistVer file
 
@@ -70,7 +70,7 @@ def generateCache(bundledFiles: list) -> None: #We need to generate cache becaus
     print(" >Generating cache...")
     for f in bundledFiles:
         progress += 1
-        print(" >["+str(progress)+"/"+str(len(bundledFiles))+"]")
+        print(" >["+str(progress)+"/"+str(len(bundledFiles))+"] "+f)
         copytree("./"+f, ".\\SPT\\user\\cache", dirs_exist_ok=True)
 
 def check7z() -> None:
@@ -229,7 +229,7 @@ def main():
             print(" >["+str(downloadList.index(mod))+"/"+str(len(downloadList))+"]"+" Downloading: "+mod["url"]+" :: "+fname+"...")
 
             getB, getI = getFile(mod["url"], fname)
-            if getB and getI == 0: #if the download succeeded, extract files and save list of bundles, else this will crash
+            if getB: #if the download succeeded, extract files and save list of bundles, else this will crash
                 bundledFiles = extract(bundledFiles ,".\\update\\"+fname)
 
         print("")
