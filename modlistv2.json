@@ -86,5 +86,12 @@
 		{"name": "WTT-BlackDiv", "format": "7z", "modver": 2, "url": "https://github.com/TacticalToaster/BlackDiv/releases/download/1.1.1/blackdiv-111-release.7z"},
 		{"name": "TacticalToaster-MoreBotsAPI", "format": "7z", "modver": 2, "url": "https://github.com/TacticalToaster/MoreBotsAPI/releases/download/2.0.1/morebotsapi-201-release.7z"}
 	]
+	},
+	"3": {
+	"version": 3,
+	"list": [
+		{"name": "7Bpencil-WeaponCamoAndStickers", "format": "zip", "modver": 2, "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers/releases/download/v1.7.0/7Bpencil.WeaponCamoAndStickers.v1.7.0.zip"},
+		{"name": "acidphantasm-StatTrack", "format": "7z", "modver": 1, "url": "https://github.com/acidphantasm/stattrack-csharp/releases/download/2.0.0/acidphantasm-stattrack.7z"}
+	]
 	}
 }
