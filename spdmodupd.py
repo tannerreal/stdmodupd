@@ -10,7 +10,7 @@ from sys import stdout
 #Limitations:
 #No discord files
 
-modUpdaterVersion = "1.3.1"
+modUpdaterVersion = "1.3.2"
 sevenZipDownloadLink = "https://github.com/ip7z/7zip/releases/download/26.01/7zr.exe"
 modListLink = "https://raw.githubusercontent.com/tannerreal/stdmodupd/refs/heads/main/modlistv2.json" #Replace me i you want to use a different modlist, note: modlists always start with 1, if you want to download version 1 of modlist, put a zero in the .modlistVer file
 
@@ -226,7 +226,7 @@ def main():
         print(" >Mods out of date")
         for mod in downloadList:
             fname = mod["name"]+"."+mod["format"]
-            print(" >["+str(downloadList.index(mod))+"/"+str(len(downloadList))+"]"+" Downloading: "+mod["url"]+" :: "+fname+"...")
+            print(" >["+str(downloadList.index(mod)+1)+"/"+str(len(downloadList))+"]"+" Downloading: "+mod["url"]+" :: "+fname+"...")
 
             getB, getI = getFile(mod["url"], fname)
             if getB: #if the download succeeded, extract files and save list of bundles, else this will crash
