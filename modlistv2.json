@@ -68,7 +68,7 @@
 		{"name": "tarkin-huir", "format": "zip", "modver": 1, "url": "https://github.com/bmpq/spt-hideoutuirevamp/releases/download/v1.0.0/huir_v1.0.0.zip"},
 		{"name": "tarkin-Ladders", "format": "zip", "modver": 1, "url": "https://github.com/bmpq/spt-ladders/releases/download/v1.0.2/tarkin-ladders-v1.0.0.zip"},
 		{"name": "tarkin-Ladders-fika", "format": "zip", "modver": 1, "url": "https://github.com/bmpq/spt-ladders/releases/download/v1.0.0/tarkin-ladders-fikasync-v1.0.0.zip"},
-		{"name": "harmonyzt-BringBackConcussion", "format": "7z", "modver": 1, "url": "https://github.com/harmonyzt/BringBackConcussion/releases/download/1.0.3/Bring_Back_Concussion_v1.0.3.7z"},
+		{"name": "harmonyzt-BringBackConcussion", "format": "zip", "modver": 1, "url": "https://github.com/harmonyzt/BringBackConcussion/releases/download/1.0.3/Bring_Back_Concussion_v1.0.3.7z"},
 		{"name": "DrakiaXYZ-BigBrain", "format": "7z", "modver": 1, "url": "https://github.com/DrakiaXYZ/SPT-BigBrain/releases/download/1.4.0/DrakiaXYZ-BigBrain-1.4.0.7z"},
 		{"name": "DrakiaXYZ-SearchOpenContainers", "format": "7z", "modver": 1, "url": "https://github.com/DrakiaXYZ/SPT-SearchOpenContainers/releases/download/1.4.0/DrakiaXYZ-SearchOpenContainers-1.4.0.7z"},
 		{"name": "Fontaine-FOVFix", "format": "zip", "modver": 1, "url": "https://github.com/space-commits/SPT-FOV-Fix/releases/download/v4.0.1/Fontaine-FOV-Fix-v4.0.1-SPT-v4.x.x.zip"},
