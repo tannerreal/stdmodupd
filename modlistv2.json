@@ -66,7 +66,7 @@
 		{"name": "s8ga-PatchCrc32", "format": "7z", "modver": 1, "url": "https://github.com/s8ga/SPT_PatchCrc32/releases/download/v1.0.0-fix/s8_SPT_PatchCRC32-v1.0.0-win-x86_64.7z"},
 		{"name": "s8ga-LoadBundleEvenFaster", "format": "7z", "modver": 1, "url": "https://github.com/s8ga/SPT_LoadBundleEvenFaster/releases/download/v1.0.0/s8_SPT_LoadBundleEvenFaster-v1.0.0-win-x86_64.7z"},
 		{"name": "tarkin-huir", "format": "zip", "modver": 1, "url": "https://github.com/bmpq/spt-hideoutuirevamp/releases/download/v1.0.0/huir_v1.0.0.zip"},
-		{"name": "tarkin-Ladders", "format": "zip", "modver": 1, "url": "https://github.com/bmpq/spt-ladders/releases/download/v1.0.2/tarkin-ladders-v1.0.0.zip"},
+		{"name": "tarkin-Ladders", "format": "zip", "modver": 1, "url": "https://github.com/bmpq/spt-ladders/releases/download/v1.0.0/tarkin-ladders-v1.0.0.zip"},
 		{"name": "tarkin-Ladders-fika", "format": "zip", "modver": 1, "url": "https://github.com/bmpq/spt-ladders/releases/download/v1.0.0/tarkin-ladders-fikasync-v1.0.0.zip"},
 		{"name": "harmonyzt-BringBackConcussion", "format": "zip", "modver": 1, "url": "https://github.com/harmonyzt/BringBackConcussion/releases/download/1.0.3/Bring_Back_Concussion_v1.0.3.7z"},
 		{"name": "DrakiaXYZ-BigBrain", "format": "7z", "modver": 1, "url": "https://github.com/DrakiaXYZ/SPT-BigBrain/releases/download/1.4.0/DrakiaXYZ-BigBrain-1.4.0.7z"},
