@@ -80,6 +80,7 @@
 		{"name": "Custom-CustomMods", "format": "zip", "modver": 1, "url": "https://github.com/tannerreal/stdmodupd/raw/refs/heads/main/custommods/CustomMods.zip"}
 	]
 	},
+
 	"2": {
 	"version": 2,
 	"list": [
@@ -87,11 +88,19 @@
 		{"name": "TacticalToaster-MoreBotsAPI", "format": "7z", "modver": 2, "url": "https://github.com/TacticalToaster/MoreBotsAPI/releases/download/2.0.1/morebotsapi-201-release.7z"}
 	]
 	},
+
 	"3": {
 	"version": 3,
 	"list": [
 		{"name": "7Bpencil-WeaponCamoAndStickers", "format": "zip", "modver": 2, "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers/releases/download/v1.7.0/7Bpencil.WeaponCamoAndStickers.v1.7.0.zip"},
 		{"name": "acidphantasm-StatTrack", "format": "7z", "modver": 1, "url": "https://github.com/acidphantasm/stattrack-csharp/releases/download/2.0.0/acidphantasm-stattrack.7z"}
+	]
+	},
+
+	"4": {
+	"version": 4,
+	"list": [
+		{"name": "7Bpencil-WeaponCamoAndStickers", "format": "zip", "modver": 3, "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers/releases/download/v1.9.0/7Bpencil.WeaponCamoAndStickers.v1.9.0.zip"}
 	]
 	}
 }
