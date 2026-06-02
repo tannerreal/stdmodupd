@@ -110,5 +110,12 @@
 		{"name": "7Bpencil-WeaponCamoAndStickers", "format": "zip", "modver": 5, "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers/releases/download/1.12.1/7Bpencil.WeaponCamoAndStickers.1.12.1.zip"},
 		{"name": "tarkin-Ladders", "format": "zip", "modver": 5, "url": "https://github.com/bmpq/spt-ladders/releases/download/v1.0.2/tarkin-ladders-v1.0.2.zip"}
 	]
+	},
+
+	"6": {
+	"version": 6,
+	"list": [
+		{"name": "7Bpencil-WeaponCamoAndStickers", "format": "zip", "modver": 6, "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers/releases/download/1.13.0/7Bpencil.WeaponCamoAndStickers.1.13.0.zip"}
+	]
 	}
 }
