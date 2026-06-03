@@ -117,5 +117,13 @@
 	"list": [
 		{"name": "7Bpencil-WeaponCamoAndStickers", "format": "zip", "modver": 6, "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers/releases/download/1.13.0/7Bpencil.WeaponCamoAndStickers.1.13.0.zip"}
 	]
+	},
+
+	"7": {
+	"version": 7,
+	"list": [
+		{"name": "7Bpencil-WeaponCamoAndStickers", "format": "zip", "modver": 7, "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers/releases/download/1.14.0/7Bpencil.WeaponCamoAndStickers.1.14.0.zip"},
+		{"name": "Custom-CustomCamos", "format": "zip", "modver": 7, "url": "https://github.com/tannerreal/stdmodupd/raw/refs/heads/main/custommods/Custom-CustomCamos.zip"}
+	]
 	}
 }
