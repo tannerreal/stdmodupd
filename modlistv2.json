@@ -142,5 +142,12 @@
 		{"name": "fika-server", "format": "zip", "modver": 9, "url": "https://github.com/project-fika/Fika-Server-CSharp/releases/download/v2.3.0/Fika.Server.Release.2.3.0.zip"},
 		{"name": "eco-spas12", "format": "7z", "modver": 9, "url": "https://github.com/Eco9341/Franchi-SPAS-12/releases/download/1.0.0/Franchi-SPAS-12.7z"}
 	]
+	},
+
+	"10": {
+	"version": 10,
+	"list": [
+		{"name": "fika-client", "format": "zip", "modver": 10, "url": "https://github.com/project-fika/Fika-Plugin/releases/download/v2.3.1/Fika.Release.2.3.1.zip"}
+	]
 	}
 }
