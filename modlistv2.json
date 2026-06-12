@@ -156,5 +156,12 @@
 	"list": [
 		{"name": "eco-spas12", "format": "7z", "modver": 11, "url": "https://github.com/Eco9341/Franchi-SPAS-12/releases/download/1.01/Franchi-SPAS-12.7z"}
 	]
+	},
+
+	"12": {
+	"version": 12,
+	"list": [
+		{"name": "Custom-CustomCamos", "format": "zip", "modver": 12, "url": "https://github.com/tannerreal/stdmodupd/raw/refs/heads/main/custommods/Custom-CustomCamos.zip"}
+	]
 	}
 }
