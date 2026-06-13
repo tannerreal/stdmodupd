@@ -1,0 +1,60 @@
+{
+
+	"AMMO_9X19_ADRENALINE": {
+	"itemTplToClone": "56d59d3ad2720bdb418b4577",
+	"newId": "6a2d4f6e1424c67020c66844",
+	"overrideProperties": {
+		"Weight": 0.003,
+		"Prefab": {
+			"path": "assets/ammo_toxic/patron_9x19_toxic.bundle",
+			"rcid": ""
+		},
+		"CanSellOnRagfair": true,
+		"CanRequireOnRagfair": true,
+		"InitialSpeed": 410,
+		"BallisticCoeficient": 0.105,
+		"BulletMassGram": 4,
+		"Damage": 1,
+		"ammoRec": 15,
+		"PenetrationPower": 1,
+		"PenetrationPowerDiviation": 0.136,
+		"ammoSfx": "tracer",
+		"BackgroundColor": "orange",
+		"MinFragmentsCount": 1,
+		"MaxFragmentsCount": 1,
+		"PenetrationChanceObstacle": 0.08,
+		"RicochetChance": 0.005,
+		"FragmentationChance": 0.9,
+		"SpeedRetardation": 0.00015,
+		"Tracer": true,
+		"TracerColor": "red",
+		"ArmorDamage": 1,
+		"StaminaBurnPerDamage": 0.8,
+		"HeavyBleedingDelta": 0,
+		"LightBleedingDelta": 0,
+		"MalfMisfireChance": 0.2,
+		"DurabilityBurnModificator": 1.2,
+		"HeatFactor": 1.13645,
+		"MalfFeedChance": 0.1
+	},
+	"fleaPriceRoubles": 44000,
+	"parentId": "5485a8684bdc2da71d8b4567",
+	"handbookPriceRoubles": 44000,
+	"handbookParentId": "5b47574386f77428ca22b33b",
+	"locales": {
+		"en": {
+			"name": "9x19mm Adrenaline Stimulant",
+			"shortName": "adr9x19",
+			"description": "<color=#ff675b>Contains Adrenaline</color>"
+		}
+	},
+	"addtoTraders": true,
+	"barterScheme": [
+		{
+			"count": 232,
+			"_tpl": "569668774bdc2da2298b4568"
+		}
+	],
+	"ammoCloneCompatibility": true
+	}
+}

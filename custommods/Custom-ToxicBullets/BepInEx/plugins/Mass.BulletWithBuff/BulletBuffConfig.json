@@ -1,0 +1,11 @@
+{
+    "BulletBuffMappings": {
+        "01000000010c1c0000009a19": "Buffs_KultistsToxin",
+        "01000000010c1c0000556a45": "Buffs_KultistsToxin",
+        "6a2d454f374adac04b6b3b32": "BuffsPropital",
+        "6a2d4ed58acfb1473b0c9f2f": "Buffs_Perfotoran",
+        "6a2d4f6e1424c67020c66844": "BuffsAdrenaline",
+        "6a2d51b83b0b2099748edd16": "BuffseTGchange",
+        "6a2d5253407b83ab16428f02": "Buffs_SJ12_TGLabs"
+    }
+}
