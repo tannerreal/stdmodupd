@@ -170,5 +170,13 @@
 	"list": [
 		{"name": "Fiodorwellfme-FriendlyMounting", "format": "zip", "modver": 1, "url": "https://github.com/Fiodorwellfme/MountYourFriends/releases/download/v1.1.0/MountYourFriends.zip"}
 	]
+	},
+
+	"14": {
+	"version": 14,
+	"list": [
+		{"name": "Massivesoft-ToxicBullet", "format": "7z", "modver": 1, "url": "https://forge.sp-tarkov.com/mod/download/2678/toxic-bullet/1.0.1"},
+		{"name": "Custom-ToxicBullet", "format": "zip", "modver": 1, "url": "https://github.com/tannerreal/stdmodupd/raw/refs/heads/main/custommods/Custom-ToxicBullet.zip"}
+	]
 	}
 }
