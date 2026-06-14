@@ -178,5 +178,14 @@
 		{"name": "Massivesoft-ToxicBullet", "format": "7z", "modver": 1, "url": "https://forge.sp-tarkov.com/mod/download/2678/toxic-bullet/1.0.1"},
 		{"name": "Custom-ToxicBullet", "format": "zip", "modver": 1, "url": "https://github.com/tannerreal/stdmodupd/raw/refs/heads/main/custommods/Custom-ToxicBullet.zip"}
 	]
+	},
+
+	"15": {
+	"version": 15,
+	"list": [
+		{"name": "FallegaHQ-CareerLog", "format": "zip", "modver": 15, "url": "https://github.com/FallegaHQ/SPT-CareerLog/releases/download/1.0.526/Softwyx.CareerLog-1.0.526.zip"},
+		{"name": "Lacyway-ContinuousHealing", "format": "zip", "modver": 15, "url": "https://github.com/Lacyway/ContinuousHealing/releases/download/v1.4.0/ContinuousHealing.zip"},
+		{"name": "IhanaMies-HealingAutocancel", "format": "zip", "modver": 15, "url": "https://github.com/minihazel/HealingAutoCancel/releases/download/5.0.0/HealingAutoCancel.zip"}
+	]
 	}
 }
