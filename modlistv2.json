@@ -187,5 +187,13 @@
 		{"name": "Lacyway-ContinuousHealing", "format": "zip", "modver": 15, "url": "https://github.com/Lacyway/ContinuousHealing/releases/download/v1.4.0/ContinuousHealing.zip"},
 		{"name": "IhanaMies-HealingAutocancel", "format": "zip", "modver": 15, "url": "https://github.com/minihazel/HealingAutoCancel/releases/download/5.0.0/HealingAutoCancel.zip"}
 	]
+	},
+
+	"16": {
+	"version": 16,
+	"list": [
+		{"name": "fika-client", "format": "zip", "modver": 15, "url": "https://github.com/project-fika/Fika-Plugin/releases/download/v2.3.2/Fika.Release.2.3.2.zip"},
+		{"name": "fika-server", "format": "zip", "modver": 15, "url": "https://github.com/project-fika/Fika-Server-CSharp/releases/download/v2.3.2/Fika.Server.Release.2.3.2.zip"}
+	]
 	}
 }
