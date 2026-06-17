@@ -195,5 +195,12 @@
 		{"name": "fika-client", "format": "zip", "modver": 15, "url": "https://github.com/project-fika/Fika-Plugin/releases/download/v2.3.2/Fika.Release.2.3.2.zip"},
 		{"name": "fika-server", "format": "zip", "modver": 15, "url": "https://github.com/project-fika/Fika-Server-CSharp/releases/download/v2.3.2/Fika.Server.Release.2.3.2.zip"}
 	]
+	},
+
+	"17": {
+	"version": 17,
+	"list": [
+		{"name": "fika-client", "format": "zip", "modver": 17, "url": "https://github.com/project-fika/Fika-Plugin/releases/download/v2.3.3/Fika.Release.2.3.3.zip"}
+	]
 	}
 }
