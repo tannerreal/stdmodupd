@@ -209,5 +209,12 @@
 	"list": [
 		{"name": "tarkin-FikaAnimFix", "format": "zip", "modver": 18, "url": "https://github.com/danauraborealis/ManimalsCombineSoldiers/releases/download/v.1.0.0/Manimal-CombineSoldiers-1.0.0.zip"}
 	]
+	},
+
+	"19": {
+	"version": 19,
+	"list": [
+		{"name": "bushtail-CantedAiming", "format": "zip", "modver": 19, "url": "https://github.com/bushtail/CantedAiming/releases/download/v1.1.0/bushtail-CantedAiming_v1.1.0-alpha.zip"}
+	]
 	}
 }
