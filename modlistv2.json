@@ -202,5 +202,12 @@
 	"list": [
 		{"name": "fika-client", "format": "zip", "modver": 17, "url": "https://github.com/project-fika/Fika-Plugin/releases/download/v2.3.3/Fika.Release.2.3.3.zip"}
 	]
+	},
+
+	"18": {
+	"version": 18,
+	"list": [
+		{"name": "tarkin-FikaAnimFix", "format": "zip", "modver": 18, "url": "https://github.com/danauraborealis/ManimalsCombineSoldiers/releases/download/v.1.0.0/Manimal-CombineSoldiers-1.0.0.zip"}
+	]
 	}
 }
