@@ -216,5 +216,12 @@
 	"list": [
 		{"name": "bushtail-CantedAiming", "format": "zip", "modver": 19, "url": "https://github.com/bushtail/CantedAiming/releases/download/v1.1.0/bushtail-CantedAiming_v1.1.0-alpha.zip"}
 	]
+	},
+
+	"20": {
+	"version": 20,
+	"list": [
+		{"name": "EpicRangeTime-EpicsAIO", "format": "7z", "modver": 20, "url": "https://github.com/EpicRangeTime/EpicRangeTime-Weapons/releases/download/v4.0.8/EpicsAIO.4.0.8.7z"}
+	]
 	}
 }
