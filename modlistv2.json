@@ -223,5 +223,12 @@
 	"list": [
 		{"name": "EpicRangeTime-EpicsAIO", "format": "7z", "modver": 20, "url": "https://github.com/EpicRangeTime/EpicRangeTime-Weapons/releases/download/v4.0.8/EpicsAIO.4.0.8.7z"}
 	]
+	},
+
+	"21": {
+	"version": 21,
+	"list": [
+		{"name": "7Bpencil-WeaponCamoAndStickers", "format": "7z", "modver": 21, "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers/releases/download/1.15.0/7Bpencil.WeaponCamoAndStickers.1.15.0.zip"}
+	]
 	}
 }
