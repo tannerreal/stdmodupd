@@ -228,7 +228,7 @@
 	"21": {
 	"version": 21,
 	"list": [
-		{"name": "7Bpencil-WeaponCamoAndStickers", "format": "7z", "modver": 21, "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers/releases/download/1.15.0/7Bpencil.WeaponCamoAndStickers.1.15.0.zip"}
+		{"name": "7Bpencil-WeaponCamoAndStickers", "format": "zip", "modver": 21, "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers/releases/download/1.15.0/7Bpencil.WeaponCamoAndStickers.1.15.0.zip"}
 	]
 	}
 }
