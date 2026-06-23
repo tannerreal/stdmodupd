@@ -230,5 +230,15 @@
 	"list": [
 		{"name": "7Bpencil-WeaponCamoAndStickers", "format": "zip", "modver": 21, "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers/releases/download/1.15.0/7Bpencil.WeaponCamoAndStickers.1.15.0.zip"}
 	]
+	},
+
+	"22": {
+	"version": 22,
+	"list": [
+		{"name": "manimal-LegArmor", "format": "zip", "modver": 22, "url": "https://github.com/danauraborealis/Manimal-s-Leg-Armor/releases/download/v1.0.0/Manimal-LegArmor-1.0.0.zip"},
+		{"name": "Custom-CustomCamos", "format": "zip", "modver": 22, "url": "https://github.com/tannerreal/stdmodupd/raw/refs/heads/main/custommods/Custom-CustomCamos.zip"},
+		{"name": "Custom-CustomCamosAmyCustom", "format": "zip", "modver": 22, "url": "https://github.com/tannerreal/stdmodupd/raw/refs/heads/main/custommods/Custom-CustomCamosAnyCustom.zip"},
+		{"name": "Custom-CustomCamosLZ", "format": "zip", "modver": 22, "url": "https://github.com/tannerreal/stdmodupd/raw/refs/heads/main/custommods/Custom-CustomCamosLZ.zip"}
+	]
 	}
 }
