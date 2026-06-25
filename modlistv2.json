@@ -239,5 +239,15 @@
 		{"name": "Custom-CustomCamosAmyCustom", "format": "zip", "modver": 22, "url": "https://github.com/tannerreal/stdmodupd/raw/refs/heads/main/custommods/Custom-CustomCamosAnyCustom.zip"},
 		{"name": "Custom-CustomCamosLZ", "format": "zip", "modver": 22, "url": "https://github.com/tannerreal/stdmodupd/raw/refs/heads/main/custommods/Custom-CustomCamosLZ.zip"}
 	]
+	},
+
+	"23": {
+	"version": 23,
+	"list": [
+		{"name": "Massivesoft-Core", "format": "7z", "modver": 23, "url": "https://github.com/Ezawa-Riki/MassivesoftCore/releases/download/release/MassivesoftCore-1.0.2.7z"},
+		{"name": "tarkin-FikaAnimFix", "format": "zip", "modver": 23, "url": "https://github.com/danauraborealis/ManimalsCombineSoldiers/releases/download/v2.0.0/Manimal-CombineSoldiers-2.0.0.zip"},
+		{"name": "manimal-GoldenPick", "format": "zip", "modver": 23, "url": "https://github.com/danauraborealis/ManimalGoldenPick/releases/download/1.0.0/Manimal-GoldenPick-1.0.0.zip"},
+		{"name": "shaneeexd-TraderGen", "format": "zip", "modver": 23, "url": "https://github.com/ShaneeexD/SPT-TraderGen/releases/download/1.8.0/TraderGen-1.8.0.zip"}
+	]
 	}
 }
