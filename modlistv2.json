@@ -249,5 +249,12 @@
 		{"name": "manimal-GoldenPick", "format": "zip", "modver": 23, "url": "https://github.com/danauraborealis/ManimalGoldenPick/releases/download/1.0.0/Manimal-GoldenPick-1.0.0.zip"},
 		{"name": "shaneeexd-TraderGen", "format": "zip", "modver": 23, "url": "https://github.com/ShaneeexD/SPT-TraderGen/releases/download/1.8.0/TraderGen-1.8.0.zip"}
 	]
+	},
+
+	"24": {
+	"version": 24,
+	"list": [
+		{"name": "manimal-GoldenPick", "format": "zip", "modver": 24, "url": "https://github.com/danauraborealis/ManimalGoldenPick/releases/download/1.0.1/Manimal-GoldenPick-1.0.1.zip"}
+	]
 	}
 }
