@@ -265,5 +265,13 @@
 		{"name": "vinarator-InfiniteStash", "format": "zip", "modver": 25, "url": "https://github.com/Vinarat0r/Infinite-Stash/releases/download/1.0.0/Infinite-Stash-1.0.0.zip"},
 		{"name": "7bpencil-TransparentSights", "format": "zip", "modver": 25, "url": "https://github.com/7Bpencil/SPT.TransparentSights/releases/download/0.1.1/7Bpencil.TransparentSights.0.1.1.zip"}
 	]
+	},
+
+	"26": {
+	"version": 26,
+	"list": [
+		{"name": "manimal-GoldenPick", "format": "zip", "modver": 26, "url": "https://github.com/danauraborealis/ManimalGoldenPick/releases/download/1.0.6/Manimal-GoldenPick-1.0.6.zip"},
+		{"name": "tarkin-FikaAnimFix", "format": "zip", "modver": 26, "url": "https://github.com/danauraborealis/ManimalsCombineSoldiers/releases/download/2.0.1/Manimal-CombineSoldiers-2.0.1.zip"}
+		]
 	}
 }
