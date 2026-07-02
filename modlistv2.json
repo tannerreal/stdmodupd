@@ -207,7 +207,7 @@
 	"18": {
 	"version": 18,
 	"list": [
-		{"name": "tarkin-FikaAnimFix", "format": "zip", "modver": 18, "url": "https://github.com/danauraborealis/ManimalsCombineSoldiers/releases/download/v.1.0.0/Manimal-CombineSoldiers-1.0.0.zip"}
+		
 	]
 	},
 
@@ -246,7 +246,7 @@
 	"list": [
 		{"name": "Massivesoft-Core", "format": "7z", "modver": 23, "url": "https://github.com/Ezawa-Riki/MassivesoftCore/releases/download/release/MassivesoftCore-1.0.2.7z"},
 		{"name": "tarkin-FikaAnimFix", "format": "zip", "modver": 23, "url": "https://github.com/danauraborealis/ManimalsCombineSoldiers/releases/download/v2.0.0/Manimal-CombineSoldiers-2.0.0.zip"},
-		{"name": "manimal-GoldenPick", "format": "zip", "modver": 23, "url": "https://github.com/danauraborealis/ManimalGoldenPick/releases/download/1.0.0/Manimal-GoldenPick-1.0.0.zip"},
+		
 		{"name": "shaneeexd-TraderGen", "format": "zip", "modver": 23, "url": "https://github.com/ShaneeexD/SPT-TraderGen/releases/download/1.8.0/TraderGen-1.8.0.zip"}
 	]
 	},
@@ -254,7 +254,7 @@
 	"24": {
 	"version": 24,
 	"list": [
-		{"name": "manimal-GoldenPick", "format": "zip", "modver": 24, "url": "https://github.com/danauraborealis/ManimalGoldenPick/releases/download/1.0.1/Manimal-GoldenPick-1.0.1.zip"}
+		
 	]
 	},
 
@@ -270,15 +270,14 @@
 	"26": {
 	"version": 26,
 	"list": [
-		{"name": "manimal-GoldenPick", "format": "zip", "modver": 26, "url": "https://github.com/danauraborealis/ManimalGoldenPick/releases/download/1.0.6/Manimal-GoldenPick-1.0.6.zip"},
-		{"name": "tarkin-FikaAnimFix", "format": "zip", "modver": 26, "url": "https://github.com/danauraborealis/ManimalsCombineSoldiers/releases/download/2.0.1/Manimal-CombineSoldiers-2.0.1.zip"}
+		
+		
 		]
 	},
 
 	"27": {
 	"version": 27,
 	"list": [
-		{"name": "Tylevo-TacticalServicesControl", "format": "zip", "modver": 27, "url": "https://github.com/Tylevo/Tylevo.TacticalServicesControl/releases/download/v0.9.4/Tylevo.TacticalServicesControl-v1.0.4-SPT4.0.13.zip"},
 		{"name": "7Bpencil-WeaponCamoAndStickers", "format": "zip", "modver": 27, "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers/releases/download/1.16.0/7Bpencil.WeaponCamoAndStickers.1.16.0.zip"},
 		{"name": "Arys-UnityToolkit", "format": "7z", "modver": 27, "url": "https://github.com/ArysWasTaken/UnityToolkit/releases/download/v2.0.1/UnityToolkit-v2.0.1.7z"},
 		{"name": "Custom-AmyPatches", "format": "zip", "modver": 27, "url": "https://github.com/tannerreal/stdmodupd/raw/refs/heads/main/custommods/Custom-AmyPatches.zip"}
