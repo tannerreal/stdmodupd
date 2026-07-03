@@ -46,7 +46,7 @@
 		
 		{"name": "viniHNS-MakeShotgunsGreatAgain", "format": "zip", "modver": 1, "url": "https://github.com/viniHNS/Make-Shotguns-Great-Again/releases/download/v1.13.1/makeshotgunsgreatagain.zip"},
 		{"name": "Ajdj100-NoTallMounts", "format": "7z", "modver": 1, "url": "https://github.com/Ajdj100/NoTallMounts/releases/download/1.0.1/NoTallMounts1.0.1.7z"},
-		{"name": "turbodestroyer-Couturier", "format": "zip", "modver": 1, "url": "https://forge.sp-tarkov.com/mod/download/2239/couturier-gear-and-clothing-pack/2.0.2"},
+		{"name": "turbodestroyer-Couturier", "format": "zip", "modver": 1, "url": "https://forge.sp-tarkov.com/mod/download/2239/coutumodlistv2.jsonrier-gear-and-clothing-pack/2.0.2"},
 		{"name": "fika-server", "format": "zip", "modver": 1, "url": "https://github.com/project-fika/Fika-Server-CSharp/releases/download/v2.2.4/Fika.Server.Release.2.2.4.zip"},
 		{"name": "ArchangelWTF-sain", "format": "zip", "modver": 1, "url": "https://github.com/ArchangelWTF/SAIN/releases/download/v4.4.3/SAIN.4.4.3.zip"},
 		{"name": "EpicRangeTime-EpicsAIO", "format": "zip", "modver": 1, "url": "https://github.com/EpicRangeTime/EpicRangeTime-Weapons/releases/download/v4.0.7/EpicsAIO.4.0.7.zip"},
@@ -281,6 +281,13 @@
 		{"name": "7Bpencil-WeaponCamoAndStickers", "format": "zip", "modver": 27, "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers/releases/download/1.16.0/7Bpencil.WeaponCamoAndStickers.1.16.0.zip"},
 		{"name": "Arys-UnityToolkit", "format": "7z", "modver": 27, "url": "https://github.com/ArysWasTaken/UnityToolkit/releases/download/v2.0.1/UnityToolkit-v2.0.1.7z"},
 		{"name": "Custom-AmyPatches", "format": "zip", "modver": 27, "url": "https://github.com/tannerreal/stdmodupd/raw/refs/heads/main/custommods/Custom-AmyPatches.zip"}
+		]
+	},
+
+	"28": {
+	"version": 28,
+	"list": [
+		{"name": "WTT-BlackDiv", "format": "7z", "modver": 28, "url": "https://github.com/TacticalToaster/BlackDiv/releases/download/1.1.2/blackdiv-112-release.7z"}
 		]
 	}
 }
