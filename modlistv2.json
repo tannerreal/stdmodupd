@@ -299,5 +299,15 @@
 		{"name": "fika-server", "format": "zip", "modver": 29, "url": "https://github.com/project-fika/Fika-Server-CSharp/releases/download/v2.3.4/Fika.Server.Release.2.3.4.zip"},
 		{"name": "fika-client", "format": "zip", "modver": 29, "url": "https://github.com/project-fika/Fika-Plugin/releases/download/v2.3.4/Fika.Release.2.3.4.zip"}
 	]
+	},
+
+	"30": {
+	"version": 30,
+	"list": [
+		{"name": "AC-RidableVehicles", "format": "zip", "modver": 30, "url": "https://gitlab.com/-/project/84102744/uploads/d1fe5636adb99d78aa74e93c1cc424fb/RidableVehicles-v0.13.1.zip"},
+		{"name": "AC-RidableVehicles-Fika", "format": "zip", "modver": 30, "url": "https://gitlab.com/-/project/84102744/uploads/7577f429ec13a23165ea57979bc755f6/RidableVehicles-FikaAddon-v0.13.1.zip"},
+		{"name": "Arys-Shlop", "format": "7z", "modver": 30, "url": "https://github.com/ArysWasTaken/SamSWAT.HeliCrash.ArysReloaded/releases/download/v2.5.2/SamSWAT.HeliCrash.ArysReloaded.CORE-v2.5.2-SPT4.0.3.7z"},
+		{"name": "Arys-Shlop-Fika", "format": "7z", "modver": 30, "url": "https://github.com/ArysWasTaken/SamSWAT.HeliCrash.ArysReloaded/releases/download/v2.5.2/SamSWAT.HeliCrash.ArysReloaded.FIKA-v1.0.4-SPT4.0.3.7z"}
+	]
 	}
 }
