@@ -309,5 +309,13 @@
 		{"name": "Arys-Shlop", "format": "7z", "modver": 30, "url": "https://github.com/ArysWasTaken/SamSWAT.HeliCrash.ArysReloaded/releases/download/v2.5.2/SamSWAT.HeliCrash.ArysReloaded.CORE-v2.5.2-SPT4.0.3.7z"},
 		{"name": "Arys-Shlop-Fika", "format": "7z", "modver": 30, "url": "https://github.com/ArysWasTaken/SamSWAT.HeliCrash.ArysReloaded/releases/download/v2.5.2/SamSWAT.HeliCrash.ArysReloaded.FIKA-v1.0.4-SPT4.0.3.7z"}
 	]
+	},
+
+	"31": {
+	"version": 31,
+	"list": [
+		{"name": "AC-RidableVehicles", "format": "zip", "modver": 31, "url": "https://gitlab.com/-/project/84102744/uploads/4d217909e88fe500b1b2461ff3a32efe/RidableVehicles-v0.13.2.zip"},
+		{"name": "AC-RidableVehicles-Fika", "format": "zip", "modver": 31, "url": "hhttps://gitlab.com/-/project/84102744/uploads/8b210e90de80cdbc402ee33bd9cea21b/RidableVehicles-FikaAddon-v0.13.2.zip"}
+	]
 	}
 }
