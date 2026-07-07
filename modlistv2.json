@@ -315,7 +315,7 @@
 	"version": 31,
 	"list": [
 		{"name": "AC-RidableVehicles", "format": "zip", "modver": 31, "url": "https://gitlab.com/-/project/84102744/uploads/4d217909e88fe500b1b2461ff3a32efe/RidableVehicles-v0.13.2.zip"},
-		{"name": "AC-RidableVehicles-Fika", "format": "zip", "modver": 31, "url": "hhttps://gitlab.com/-/project/84102744/uploads/8b210e90de80cdbc402ee33bd9cea21b/RidableVehicles-FikaAddon-v0.13.2.zip"}
+		{"name": "AC-RidableVehicles-Fika", "format": "zip", "modver": 31, "url": "https://gitlab.com/-/project/84102744/uploads/8b210e90de80cdbc402ee33bd9cea21b/RidableVehicles-FikaAddon-v0.13.2.zip"}
 	]
 	}
 }
