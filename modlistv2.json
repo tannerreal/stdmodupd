@@ -324,5 +324,13 @@
 	"list": [
 		{"name": "Lacyway-ContinuousHealing", "format": "zip", "modver": 32, "url": "https://github.com/Lacyway/ContinuousHealing/releases/download/v1.5.0/ContinuousHealing.zip"}
 	]
+	},
+
+	"33": {
+	"version": 33,
+	"list": [
+		{"name": "AC-RidableVehicles", "format": "zip", "modver": 33, "url": "https://gitlab.com/-/project/84102744/uploads/30d3902059fdd701700e0f639b0a48ac/RidableVehicles-v0.14.0.zip"},
+		{"name": "AC-RidableVehicles-Fika", "format": "zip", "modver": 33, "url": "https://gitlab.com/-/project/84102744/uploads/8555e2910c64d36ae88f8e50d581fea2/RidableVehicles-FikaAddon-v0.14.0.zip"}
+	]
 	}
 }
