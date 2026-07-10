@@ -332,5 +332,12 @@
 		{"name": "AC-RidableVehicles", "format": "zip", "modver": 33, "url": "https://gitlab.com/-/project/84102744/uploads/30d3902059fdd701700e0f639b0a48ac/RidableVehicles-v0.14.0.zip"},
 		{"name": "AC-RidableVehicles-Fika", "format": "zip", "modver": 33, "url": "https://gitlab.com/-/project/84102744/uploads/8555e2910c64d36ae88f8e50d581fea2/RidableVehicles-FikaAddon-v0.14.0.zip"}
 	]
+	},
+
+	"34": {
+	"version": 34,
+	"list": [
+		{"name": "tyfon7-UIFixes", "format": "zip", "modver": 34, "url": "https://github.com/tyfon7/UIFixes/releases/download/v5.3.10/Tyfon-UIFixes-5.3.10.zip"}
+	]
 	}
 }
