@@ -355,5 +355,12 @@
 		{"name": "C11-TrueNorth", "format": "7z", "modver": 36, "url": "https://github.com/c11gunworks-lab/c11-tn-4/releases/download/3.1.5/C11-TN4.7z"},
 		{"name": "Eco-AttachmentEmporium", "format": "7z", "modver": 36, "url": "https://github.com/Eco9341/tarkovMods/releases/download/ForgottenBugs/Eco-Attachment-Emporium.7z"}
 	]
+	},
+
+	"37": {
+	"version": 37,
+	"list": [
+		{"name": "C11-22lr", "format": "7z", "modver": 37, "url": "https://github.com/c11gunworks-lab/spt_22lr/releases/download/1.6.0/C11-SPT-22LR.7z"}
+	]
 	}
 }
