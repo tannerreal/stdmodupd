@@ -347,5 +347,13 @@
 		{"name": "AC-RidableVehicles", "format": "zip", "modver": 35, "url": "https://gitlab.com/-/project/84102744/uploads/4d217909e88fe500b1b2461ff3a32efe/RidableVehicles-v0.13.2.zip"},
 		{"name": "AC-RidableVehicles-Fika", "format": "zip", "modver": 35, "url": "https://gitlab.com/-/project/84102744/uploads/8b210e90de80cdbc402ee33bd9cea21b/RidableVehicles-FikaAddon-v0.13.2.zip"}
 	]
+	},
+
+	"36": {
+	"version": 36,
+	"list": [
+		{"name": "C11-TrueNorth", "format": "7z", "modver": 36, "url": "https://github.com/c11gunworks-lab/c11-tn-4/releases/download/3.1.5/C11-TN4.7z"},
+		{"name": "Eco-AttachmentEmporium", "format": "7z", "modver": 36, "url": "https://github.com/Eco9341/tarkovMods/releases/download/ForgottenBugs/Eco-Attachment-Emporium.7z"}
+	]
 	}
 }
