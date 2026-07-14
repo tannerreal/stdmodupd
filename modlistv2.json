@@ -362,5 +362,13 @@
 	"list": [
 		{"name": "C11-22lr", "format": "7z", "modver": 37, "url": "https://github.com/c11gunworks-lab/spt_22lr/releases/download/1.6.0/C11-SPT-22LR.7z"}
 	]
+	},
+
+	"38": {
+	"version": 38,
+	"list": [
+		{"name": "AC-RidableVehicles", "format": "zip", "modver": 38, "url": "https://gitlab.com/-/project/84102744/uploads/9d04aee2f623a2a75af192aeb8d02642/RidableVehicles-v0.14.2.zip"},
+		{"name": "AC-RidableVehicles-Fika", "format": "zip", "modver": 38, "url": "https://gitlab.com/-/project/84102744/uploads/2b876e1ed038b5ef9eaa713fddfe0358/RidableVehicles-FikaAddon-v0.14.2.zip"}
+	]
 	}
 }
