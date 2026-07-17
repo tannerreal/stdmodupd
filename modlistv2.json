@@ -378,5 +378,13 @@
 		{"name": "fika-client", "format": "zip", "modver": 39, "url": "https://github.com/project-fika/Fika-Plugin/releases/download/v2.3.5/Fika.Release.2.3.5.zip"},
 		{"name": "fika-server", "format": "zip", "modver": 39, "url": "https://github.com/project-fika/Fika-Server-CSharp/releases/download/v2.3.5/Fika.Server.Release.2.3.5.zip"}
 	]
+	},
+		
+	"40": {
+	"version": 40,
+	"list": [
+		{"name": "AC-RidableVehicles", "format": "zip", "modver": 40, "url": "https://gitlab.com/-/project/84102744/uploads/a6269764ef8564544b7d0220716b8513/RidableVehicles-v0.15.0.zip"},
+		{"name": "AC-RidableVehicles-Fika", "format": "zip", "modver": 40, "url": "https://gitlab.com/-/project/84102744/uploads/6de953f37c8175b976b4bd6038d6824e/RidableVehicles-FikaAddon-v0.15.0.zip"}
+	]
 	}
 }
